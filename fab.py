@@ -27,6 +27,8 @@ prompt = PromptTemplate(template=template, input_variables=["product", "audience
 
 # Create a Streamlit app
 st.title("FAB Framework Generator")
+st.text("Feature-Advantage-Benefit (FAB) Framework Generator for marketing purpose")
+st.text("- Built on Mistral 7B LLM")
 
 # User input: Text field for the product/business and text area for context
 product_input = st.text_input("Define your Business or Product:")
