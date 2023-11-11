@@ -17,8 +17,6 @@ mistral_llm = HuggingFaceHub(
 template = """Instruction: You are an expert sales leader that specializes 
 in using the feature-advantage-benefit framework.
 Generate 10 FAB (Features, advantage benefit) statements in a table.
-You must generate very highly accurate FAB that resonates with the audience the most. 
-Take a deep breath and think step by step
 
 Product: {product}
 Audience: {audience}
